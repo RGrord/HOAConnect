@@ -1,0 +1,22 @@
+.view-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  max-width: 500px;
+  width: 100%;
+}
+.view-card .info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.view-card .info-item i {
+  width: 24px;
+  color: #6b7280;
+  margin-right: 12px;
+}
+.view-card .info-item span {
+  color: #1f2937;
+  font-size: 14px;
+}

@@ -1,0 +1,102 @@
+.payment-details p {
+  margin-bottom: 8px;
+}
+.payment-details label {
+  font-weight: 500;
+  color: #374151;
+}
+.payment-details span {
+  color: #1f2937;
+}
+.payment-card {
+  border: 2px solid #14b8a6; /* Teal-500 border */
+  background-color: #ccfbf1; /* Teal-50 background */
+  border-radius: 4px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+.modal-content {
+  background-color: white;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 900px; /* Increased max-width for table */
+  max-height: 90vh; /* Increased max-height */
+  overflow: hidden; /* Changed to hidden, inner div will scroll */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  border-bottom: 1px solid #e5e7eb;
+}
+.modal-header h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1f2937;
+  padding-left: 16px; /* Added left padding */
+}
+.modal-header button {
+  color: #6b7280;
+  font-size: 18px;
+  padding-right: 16px; /* Added right padding */
+}
+.modal-body {
+  padding: 24px;
+  flex-grow: 1;
+  overflow-y: auto; /* Make body scrollable */
+}
+/* Excel-like table styles */
+.excel-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 12px;
+}
+.excel-table th,
+.excel-table td {
+  border: 1px solid #d1d5db;
+  padding: 8px;
+  text-align: left;
+}
+.excel-table th {
+  background-color: #f3f4f6;
+  font-weight: bold;
+}
+.excel-table tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  padding: 16px 24px;
+  border-top: 1px solid #e5e7eb;
+}
+.modal-footer button {
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+.modal-footer .close-btn {
+  background-color: white;
+  border: 1px solid #d1d5db;
+  color: #374151;
+}
+.modal-footer .close-btn:hover {
+  background-color: #f3f4f6;
+}
+.modal-footer .download-btn,
+.modal-footer .print-btn {
+  background-color: #14b8a6;
+  border: none;
+  color: white;
+}
+.modal-footer .download-btn:hover,
+.modal-footer .print-btn:hover {
+  background-color: #0d9488;
+}
