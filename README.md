@@ -1,0 +1,1 @@
+HOAConnect is a web-based system designed to automate homeowners’ association (HOA) fee collection and improve financial transparency. It provides a centralized platform for managing payments, tracking budgets, and improving communication between administrators and residents.https://github.com/RGrord/HOAConnect/tree/main
